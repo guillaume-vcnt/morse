@@ -6,11 +6,17 @@ Cet exercice vise à créer un encodeur et décodeur de morse. Le morse est un a
 
 ## Caractéristiques
 
-État du projet : En cours
+État du projet : Terminé
 
 Nombre de participants : 1 
 
-Technologies : JavaScript
+Technologies : JavaScript, HTML, CSS
+
+Refactorisation : Non 
+
+Responsivité : Non
+
+UX/UI : Non
 
 IDE : VSCode
 
