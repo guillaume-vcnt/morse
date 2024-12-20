@@ -12,7 +12,7 @@ Nombre de participants : 1
 
 Technologies : JavaScript, HTML, CSS
 
-Responsivité : Oui
+Responsive : Oui
 
 IDE : VSCode
 
