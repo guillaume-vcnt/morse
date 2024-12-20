@@ -1,6 +1,6 @@
-# 04_parlez_vous_le_morse
+Parlez vous le morse
 
-## À propos 
+## À propos
 
 Cet exercice vise à créer un encodeur et décodeur de morse. Le morse est un alphabet codé qui remplace les caractères par des impulsions représentés par des points (.) ou des tirets (-) suivant si elles sont courtes ou longues.
 
@@ -8,16 +8,16 @@ Cet exercice vise à créer un encodeur et décodeur de morse. Le morse est un a
 
 État du projet : Terminé
 
-Nombre de participants : 1 
+Nombre de participants : 1
 
 Technologies : JavaScript, HTML, CSS
 
-Responsivité : Oui 
+Responsivité : Oui
 
 IDE : VSCode
 
-OS : Windows 
+OS : Windows
 
-## Utilisation 
+## Utilisation
 
 S'exécute via https://guillaume-vcnt.github.io/04_parlez_vous_le_morse
