@@ -1,4 +1,4 @@
-Parlez vous le morse ?
+Traducteur de morse
 
 ## À propos
 
