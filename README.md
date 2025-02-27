@@ -1,4 +1,4 @@
-Traducteur de morse
+morse
 
 ## À propos
 
@@ -11,8 +11,6 @@ Cet exercice vise à créer un encodeur et décodeur de morse. Le morse est un a
 Nombre de participants : 1
 
 Technologies : JavaScript, HTML, CSS
-
-Responsive : Oui
 
 IDE : VSCode
 
