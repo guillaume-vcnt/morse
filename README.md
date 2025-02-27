@@ -8,8 +8,6 @@ Cet exercice vise à créer un encodeur et décodeur de morse. Le morse est un a
 
 État du projet : Terminé
 
-Nombre de participants : 1
-
 Technologies : JavaScript, HTML, CSS
 
 IDE : VSCode
