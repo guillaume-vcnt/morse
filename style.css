@@ -1,19 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+html,
+body {
+  font-family: "Orbitron", sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 2.5px;
+}
+
 body {
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow-x: hidden;
-  overflow-y: auto;
   width: 100vw;
   height: 100vh;
-
-  line-height: 1.6;
+  overflow-x: hidden;
+  overflow-y: auto;
   background-image: linear-gradient(
     to right top,
     #d16ba5,
@@ -32,7 +40,7 @@ body {
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 3.125rem; /* Définit la taille du texte à 50px en rem (50/16 = 3.125 , 1rem = 16px par défaut) */
   text-align: center;
   margin-bottom: 1rem;
 }
@@ -48,34 +56,59 @@ input {
   border-radius: 40px;
   border: solid 1px white;
   color: rgb(255, 255, 255);
-  font-size: 16px;
   cursor: pointer;
-  font-weight: 500;
+  font-family: "Orbitron", sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 1px;
   margin-bottom: 1rem;
   padding: 1rem;
 }
 
 input::placeholder {
-  color: rgba(255, 255, 255, 0.5); /* Change la couleur en rouge */
+  color: rgba(255, 255, 255, 0.500);
+}
+
+input:hover {
+  transform: scale(1.05);
+}
+
+input:focus-visible {
+  outline: 2px solid #d16ba5;
+  outline-offset: 3px;
 }
 
 button {
+  min-width: 80px; /* Empêche qu'il soit trop petit */
+  max-width: 100px; /* Évite qu'il devienne énorme */
   width: 25%;
   height: 35px;
+  color: rgb(255, 255, 255);
   background: transparent;
   outline: none;
   border: solid 1px white;
   border-radius: 40px;
-  color: rgb(255, 255, 255);
-  font-size: 16px;
   cursor: pointer;
-  font-weight: 700;
+  font-family: "Orbitron", sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 1px;
   transition: all 0.3s ease-in-out;
 }
 
 button:hover {
   color: rgb(0, 0, 0);
   background-color: white;
+  transform: scale(1.05);
+}
+
+button:focus-visible {
+  outline: 2px solid #d16ba5;
+  outline-offset: 3px;
+}
+
+label {
+  margin-bottom: 0.5rem;
 }
 
 #main-container {
@@ -86,23 +119,25 @@ button:hover {
   color: rgb(255, 255, 255);
   background: rgba(0, 0, 0, 0.228);
   backdrop-filter: blur(30px);
-  border: 1px solid rgba(255, 255, 255, 0.511);
+  border: 1px solid rgb(255, 255, 255);
   border-radius: 1rem;
-  width: 500px;
+  width: 90%;
+  max-width: 500px;
   padding: 1rem;
 }
 
 .result-encode-container,
 .result-decode-container {
-  border: solid 1px rgb(255, 255, 255);
-  border-radius: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
+  border: solid 1px rgb(255, 255, 255);
+  border-radius: 40px;
   font-weight: 700;
   width: 80%;
   height: 35px;
-  margin-top: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .encode,
@@ -110,8 +145,8 @@ button:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 2.5rem;
   width: 100%;
+  margin-bottom: 2rem;
 }
 
 #label-encode,
@@ -119,5 +154,4 @@ button:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 0.5rem;
 }

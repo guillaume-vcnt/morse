@@ -28,7 +28,7 @@ encodeButton.addEventListener("click", function () {
   let encodeValue = encodeLatinToMorse.value;
   const resultEncode = encode(encodeValue);
   resultEncodeContainer.textContent = `${resultEncode}`;
-  resultEncodeContainer.style.color = "red";
+  resultEncodeContainer.style.color = "white";
 });
 
 // DECODE MORSE
@@ -60,5 +60,5 @@ decodeButton.addEventListener("click", function () {
   const resultDecode = decode(decodeValue);
   resultDecodeContainer.textContent = `${resultDecode}`;
   resultDecodeContainer.style.textTransform = "lowercase";
-  resultDecodeContainer.style.color = "red";
+  resultDecodeContainer.style.color = "white";
 });

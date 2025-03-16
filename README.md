@@ -10,6 +10,8 @@ Cet exercice vise à créer un encodeur et décodeur de morse. Le morse est un a
 
 Technologies : JavaScript, HTML, CSS
 
+UI : Oui
+
 IDE : VSCode
 
 OS : Windows
