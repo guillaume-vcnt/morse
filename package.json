@@ -2,7 +2,7 @@
   "name": "04_parlez_vous_le_morse",
   "version": "1.0.0",
   "description": "",
-  "main": "annexe1.js",
+  "main": "script.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
