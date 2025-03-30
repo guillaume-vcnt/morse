@@ -1,4 +1,4 @@
-# Morse
+# Morseus
 
 ## À propos
 
@@ -20,4 +20,4 @@ OS : Windows
 
 ## Utilisation
 
-S'exécute via https://guillaume-vcnt.github.io/morse
+S'exécute via https://guillaume-vcnt.github.io/morseus
