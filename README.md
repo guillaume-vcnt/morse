@@ -20,4 +20,4 @@ OS : Windows
 
 ## Utilisation
 
-S'exécute via https://guillaume-vcnt.github.io/02_morse
+S'exécute via https://guillaume-vcnt.github.io/morse
