@@ -10,8 +10,6 @@ Cet mini projet vise à créer un encodeur et décodeur de morse. Le morse est u
 
 Technologies : JavaScript, HTML, CSS
 
-UI : Oui
-
 IDE : VSCode
 
 OS : Windows
