@@ -16,4 +16,4 @@ OS : Windows
 
 ## Utilisation
 
-S'exécute via https://guillaume-vcnt.github.io/morseus
+S'exécute via https://guillaume-vcnt.github.io/morseus_prototype
